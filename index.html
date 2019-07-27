@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Best Game Ever!</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <div clas="box">
+      <h1 class="title">Rescuse My Princess</h1>
+      <div class="game intro">
+        <p style="font-size: 30px">The enemy kidnaps The Princess and invades my kingdom. Please help me to rescuse the Princess because this is
+          the only way to set my kingdom free </p>
+        <li>You can use the button arrow to move me around</li>
+        <li>In 60s try to rescuse the Princess as many as possible </li>
+        <li>On the way to find our Princess, you will incounter the enemy's troop. Becuase we dont have any weapon, you
+          should avoid them as you can.</li>
+        <li>The game is over when time is out or when you hit the enemy's troop</li>
+      </div>
+      <br>
+    </div>
+  </div>
+
+
+  <div class="conatainer">
+    <div class="row">
+      <div class="col">
+          <canvas id="myCanvas" style="border: 1px solid black" width="800" height="600"></canvas>
+      </div>
+      <div class="col">
+          <div>
+              <h1>Time:
+                <p1 id="my interval">20 </p1>
+              </h1>
+            </div>
+            <div>
+              <h1>Score:
+                <p1 id="scores"> 0 </p1>
+              </h1>
+            </div>
+            <div>
+              <h1>High Score:
+                <p1 id="highscore"> 0 </p1>
+              </h1>
+            </div>
+            <div>
+              <button style="height: 2rem; width: 7rem" class="button" onclick="resetTheGame()">RESET</button>
+            </div>
+      </div>
+    </div>
+    
+      
+  
+  
+
+  </div>
+
+
+
+  
+
+  <script src="game.js"></script>
+</body>
+
+</html>

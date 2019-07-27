@@ -1,0 +1,16 @@
+.button{
+    border: 1px solid blue ;
+    border-radius: 5px;
+   color: rgb(202, 68, 173);
+   background-color: rgb(97, 203, 235);
+
+
+}
+
+.title{
+    color: deeppink;
+    font-size: 500;
+    text-align: center;
+    font-size: 42px;
+}
+
