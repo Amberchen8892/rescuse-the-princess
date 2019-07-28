@@ -279,7 +279,8 @@ var render = function () {
   }
   const isOutOfTime= SECONDS_PER_ROUND - elapsedTime <= 0
   if(isOutOfTime){
-    ctx.fillText("Game Over", 20, 100);
+    ctx.fillText("Game Over", 300, 100);
+    
   }
 
   if (
@@ -297,6 +298,7 @@ var render = function () {
     && monster2Y <= (heroY + 30)
   ) {
     ctx.fillText("Game Over", 20, 100);
+    
   }
     
 
