@@ -1,6 +1,7 @@
 # Rescuse The Princess 
 ## Created by Phuong Tran
 ![This is the game](https://i.imgur.com/pK60j86.png)
+[Here is the link] (https://stoic-bhabha-379365.netlify.com)
 
 This game is based on Canvas which allows the user using arrow button to move charactor
 
